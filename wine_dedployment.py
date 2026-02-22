@@ -25,6 +25,7 @@ density=st.number_input("density")
 pH=st.number_input("pH")
 sulphates=st.number_input("sulphates")
 alcohol =st.number_input("alcohol")
+quality = st.number_input("quality")
 
 input_data = pd.DataFrame([[
     fixed_acidity,
